@@ -1,0 +1,56 @@
+body {
+    background-color: #eff4ff;
+    font-family: 'K2D', sans-serif;
+}
+
+p {
+    font-size: 16px
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 7%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.data {
+    width: 65%;
+    padding: 30px;
+}
+
+.profile {
+    width: 35%;
+    background-color: #42A5F5;
+}
+
+.section-intro {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    display: flex;
+    align-items: center;
+}
+.section-intro .logo {
+    font-size: 32px;
+}
+.section-intro .intro-text {
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .data {
+        width: 100%;
+    }
+
+    .profile {
+        width: 100%;
+    }
+}
