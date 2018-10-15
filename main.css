@@ -1,3 +1,7 @@
+html * {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #eff4ff;
     font-family: 'K2D', sans-serif;
@@ -29,7 +33,6 @@ p {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    vertical-align: baseline;
     display: flex;
     align-items: center;
 }
