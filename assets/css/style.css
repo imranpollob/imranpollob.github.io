@@ -371,3 +371,7 @@ p {
 }
 
 /* Media Queries ends */
+
+.skill_title {
+    font-size: 24px;
+}
