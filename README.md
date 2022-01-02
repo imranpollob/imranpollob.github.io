@@ -1,2 +1,1 @@
-# pollmix.github.io
-Portfolio of Pollob
+I have hosted my portfolio to [imranpollob.com](https://imranpollob.com)
